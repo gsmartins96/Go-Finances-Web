@@ -33,7 +33,7 @@ const Import: React.FC = () => {
 
       history.push('/');
     } catch (err) {
-      // console.log(err.response.error);
+      console.log(err.response.error);
     }
   }
 
